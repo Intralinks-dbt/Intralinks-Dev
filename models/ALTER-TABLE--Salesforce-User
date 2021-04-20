@@ -1,0 +1,5 @@
+ALTER TABLE rap_is_intake.sf_User drop column GEO__C;
+ALTER TABLE rap_is_intake.stg_sf_user drop column GEO__C;
+
+ALTER TABLE rap_is_intake.sf_User add GEO__c varchar(512); 
+ALTER TABLE rap_is_intake.stg_sf_user add GEO__c varchar(512);
