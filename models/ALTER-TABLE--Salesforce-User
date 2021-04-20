@@ -1,2 +1,0 @@
-ALTER TABLE dbt_intralinks.sf_User add GEO__c varchar(512); 
-

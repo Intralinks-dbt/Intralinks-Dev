@@ -1,1 +1,0 @@
-create table dbt_intralinks.sf_User add (Id varchar(255));
