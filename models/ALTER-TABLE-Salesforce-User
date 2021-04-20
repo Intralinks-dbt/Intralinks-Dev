@@ -1,1 +1,0 @@
-Alter table db_intralinks.sf_user add column GEO__C varchar(512);
