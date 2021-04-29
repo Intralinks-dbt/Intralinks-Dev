@@ -1,1 +1,0 @@
-select id, geo__c, email, lastname, systemmodstamp from rap_is_intake.sf_user

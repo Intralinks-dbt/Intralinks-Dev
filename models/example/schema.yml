@@ -19,3 +19,12 @@ models:
             tests:
                 - unique
                 - not_null
+    
+    - name: sf_User
+      description: "User info"
+      columns:
+          - name: id
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
