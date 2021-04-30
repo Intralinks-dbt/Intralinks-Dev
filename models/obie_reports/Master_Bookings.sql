@@ -1,4 +1,4 @@
-{{ config(materialized='table'}}  --,  unique_key='unique_key',incremental_strategy='insert_overwrite')}}    
+{{ config(materialized='table')}}  --,  unique_key='unique_key',incremental_strategy='insert_overwrite')}}    
 
 
 with source_data as (
@@ -94,7 +94,7 @@ opportunity_type,
 migrated_from_wst,
 end_client_geo,
 opportunity_creation_metric,
-cast('${new_or_last_work_unit_id}' as bigint)  as WORK_UNIT_ID,
+--cast('${new_or_last_work_unit_id}' as bigint)  as WORK_UNIT_ID,
 opportunity_created_by,
 END_CLIENT_PARENT_ACCOUNT_NAME,
 renewal_baseline_amt_acv_constant,
